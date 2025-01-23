@@ -27,18 +27,18 @@ namespace AnonymousType
                 EquatorLength = 21344,
                 PreviousPlanet = earth
             };
-            var venus_fake = new
+            var venus_second = new
             {
                 Name = "Венера",
                 IndexNumber = 2,
                 EquatorLength = 38025,
-                PreviousPlanet = mars
+                PreviousPlanet = (Type)null
             };
 
             Print(venus);
             Print(earth);
             Print(mars);
-            Print(venus_fake);
+            Print(venus_second);
 
             void Print(dynamic anonim)
             {
